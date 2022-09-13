@@ -1,1 +1,23 @@
-
+~/cli-basics-Kyle-Lue$ pwd
+/home/runner/cli-basics-Kyle-Lue
+~/cli-basics-Kyle-Lue$ mkdir CLIBasicsFolder
+~/cli-basics-Kyle-Lue$ ls
+CLIBasicsFolder  README.md  replit.nix  TerminalSession.txt
+~/cli-basics-Kyle-Lue$ cd CLIBasicsFolder
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ echo Kyle ICS4Ub >> myfile.txt
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ cat myfile.txt
+Kyle ICS4Ub
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ mv myfile2.txt ..~/cli-basics-Kyle-Lue/CLIBasicsFolder$ ls ..
+CLIBasicsFolder  README.md   TerminalSession.txt
+myfile2.txt  replit.nix
+~/cli-basics-Kyle-Lue/CLIBasicsFolder$ cd ..
+~/cli-basics-Kyle-Lue$ rm CLIBasicsFolder/myfile.txt 
+~/cli-basics-Kyle-Lue$ rmdir CLIBasicsFolder
+~/cli-basics-Kyle-Lue$ ls ~
+cli-basics-Kyle-Lue
+~/cli-basics-Kyle-Lue$ 
